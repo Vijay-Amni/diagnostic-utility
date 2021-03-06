@@ -1,0 +1,2801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtSensorNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtSensorNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 28</value>
+  </data>
+  <data name="txtSensorNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtSensorNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSensorNumber.Name" xml:space="preserve">
+    <value>txtSensorNumber</value>
+  </data>
+  <data name="&gt;&gt;txtSensorNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSensorNumber.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtSensorNumber.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Enter Sensor Number</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 37</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 69</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Sensor Information</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnGetSensorStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnGetSensorStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="btnGetSensorStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 29</value>
+  </data>
+  <data name="btnGetSensorStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnGetSensorStatus.Text" xml:space="preserve">
+    <value>Get Status</value>
+  </data>
+  <data name="&gt;&gt;btnGetSensorStatus.Name" xml:space="preserve">
+    <value>btnGetSensorStatus</value>
+  </data>
+  <data name="&gt;&gt;btnGetSensorStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetSensorStatus.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnGetSensorStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtSensorStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txtSensorStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtSensorStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 28</value>
+  </data>
+  <data name="txtSensorStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="txtSensorStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSensorStatus.Name" xml:space="preserve">
+    <value>txtSensorStatus</value>
+  </data>
+  <data name="&gt;&gt;txtSensorStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSensorStatus.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;txtSensorStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 113</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 69</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Sensor Status</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtPingStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtPingStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="txtPingStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="txtPingStart.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtPingStart.Text" xml:space="preserve">
+    <value>START</value>
+  </data>
+  <data name="&gt;&gt;txtPingStart.Name" xml:space="preserve">
+    <value>txtPingStart</value>
+  </data>
+  <data name="&gt;&gt;txtPingStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPingStart.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;txtPingStart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPingEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtPingEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 65</value>
+  </data>
+  <data name="txtPingEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="txtPingEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtPingEnd.Text" xml:space="preserve">
+    <value>END</value>
+  </data>
+  <data name="&gt;&gt;txtPingEnd.Name" xml:space="preserve">
+    <value>txtPingEnd</value>
+  </data>
+  <data name="&gt;&gt;txtPingEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPingEnd.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;txtPingEnd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listSensors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="listSensors.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="listSensors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 98</value>
+  </data>
+  <data name="listSensors.ScrollAlwaysVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listSensors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 220</value>
+  </data>
+  <data name="listSensors.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;listSensors.Name" xml:space="preserve">
+    <value>listSensors</value>
+  </data>
+  <data name="&gt;&gt;listSensors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listSensors.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;listSensors.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnPingSensors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnPingSensors.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnPingSensors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnPingSensors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPingSensors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="btnPingSensors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 34</value>
+  </data>
+  <data name="btnPingSensors.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnPingSensors.Text" xml:space="preserve">
+    <value>Ping All Sensors</value>
+  </data>
+  <data name="&gt;&gt;btnPingSensors.Name" xml:space="preserve">
+    <value>btnPingSensors</value>
+  </data>
+  <data name="&gt;&gt;btnPingSensors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPingSensors.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnPingSensors.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 37</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 358</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Connected Sensors</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 8</value>
+  </data>
+  <data name="txtIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="txtIP.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtIP.Name" xml:space="preserve">
+    <value>txtIP</value>
+  </data>
+  <data name="&gt;&gt;txtIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtIP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtIP.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 18</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Sensor Master IP Address: </value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnGetRawData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGetRawData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnGetRawData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGetRawData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 93</value>
+  </data>
+  <data name="btnGetRawData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 30</value>
+  </data>
+  <data name="btnGetRawData.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnGetRawData.Text" xml:space="preserve">
+    <value>Display Raw Data</value>
+  </data>
+  <data name="&gt;&gt;btnGetRawData.Name" xml:space="preserve">
+    <value>btnGetRawData</value>
+  </data>
+  <data name="&gt;&gt;btnGetRawData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetRawData.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;btnGetRawData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtQueueTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtQueueTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 61</value>
+  </data>
+  <data name="txtQueueTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="txtQueueTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtQueueTime.Name" xml:space="preserve">
+    <value>txtQueueTime</value>
+  </data>
+  <data name="&gt;&gt;txtQueueTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtQueueTime.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;txtQueueTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 64</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Queue Time</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtSamples.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtSamples.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 29</value>
+  </data>
+  <data name="txtSamples.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="txtSamples.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSamples.Name" xml:space="preserve">
+    <value>txtSamples</value>
+  </data>
+  <data name="&gt;&gt;txtSamples.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSamples.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;txtSamples.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 16</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Number of Samples</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 262</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 132</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Raw Data</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="progressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 395</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 31</value>
+  </data>
+  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtChangeStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtChangeStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 90</value>
+  </data>
+  <data name="txtChangeStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="txtChangeStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtChangeStatus.Name" xml:space="preserve">
+    <value>txtChangeStatus</value>
+  </data>
+  <data name="&gt;&gt;txtChangeStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtChangeStatus.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;txtChangeStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnChangeSensorID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnChangeSensorID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnChangeSensorID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnChangeSensorID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 122</value>
+  </data>
+  <data name="btnChangeSensorID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 30</value>
+  </data>
+  <data name="btnChangeSensorID.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnChangeSensorID.Text" xml:space="preserve">
+    <value>Check and Change ID</value>
+  </data>
+  <data name="&gt;&gt;btnChangeSensorID.Name" xml:space="preserve">
+    <value>btnChangeSensorID</value>
+  </data>
+  <data name="&gt;&gt;btnChangeSensorID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChangeSensorID.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;btnChangeSensorID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtNewSensorID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtNewSensorID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 58</value>
+  </data>
+  <data name="txtNewSensorID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="txtNewSensorID.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtNewSensorID.Name" xml:space="preserve">
+    <value>txtNewSensorID</value>
+  </data>
+  <data name="&gt;&gt;txtNewSensorID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNewSensorID.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;txtNewSensorID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 16</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>New Sensor ID</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtOldSensorID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtOldSensorID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 25</value>
+  </data>
+  <data name="txtOldSensorID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="txtOldSensorID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtOldSensorID.Name" xml:space="preserve">
+    <value>txtOldSensorID</value>
+  </data>
+  <data name="&gt;&gt;txtOldSensorID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOldSensorID.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;txtOldSensorID.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Old Sensor ID</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 37</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 165</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Change Sensor ID</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnGetVoltage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGetVoltage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnGetVoltage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGetVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="btnGetVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 30</value>
+  </data>
+  <data name="btnGetVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnGetVoltage.Text" xml:space="preserve">
+    <value>Get Voltage</value>
+  </data>
+  <data name="&gt;&gt;btnGetVoltage.Name" xml:space="preserve">
+    <value>btnGetVoltage</value>
+  </data>
+  <data name="&gt;&gt;btnGetVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetVoltage.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnGetVoltage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtSensorVoltage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txtSensorVoltage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtSensorVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 28</value>
+  </data>
+  <data name="txtSensorVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 22</value>
+  </data>
+  <data name="txtSensorVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSensorVoltage.Name" xml:space="preserve">
+    <value>txtSensorVoltage</value>
+  </data>
+  <data name="&gt;&gt;txtSensorVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSensorVoltage.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtSensorVoltage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 189</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 66</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Power Information</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnGetThresholds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGetThresholds.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnGetThresholds.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGetThresholds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 120</value>
+  </data>
+  <data name="btnGetThresholds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="btnGetThresholds.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnGetThresholds.Text" xml:space="preserve">
+    <value>Get Current Thresholds</value>
+  </data>
+  <data name="&gt;&gt;btnGetThresholds.Name" xml:space="preserve">
+    <value>btnGetThresholds</value>
+  </data>
+  <data name="&gt;&gt;btnGetThresholds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetThresholds.Parent" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;btnGetThresholds.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtMaxRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtMaxRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 86</value>
+  </data>
+  <data name="txtMaxRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="txtMaxRate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRate.Name" xml:space="preserve">
+    <value>txtMaxRate</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRate.Parent" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>MAX RATE</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtRstddr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtRstddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 58</value>
+  </data>
+  <data name="txtRstddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="txtRstddr.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtRstddr.Name" xml:space="preserve">
+    <value>txtRstddr</value>
+  </data>
+  <data name="&gt;&gt;txtRstddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRstddr.Parent" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;txtRstddr.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>RSTDDR</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtStddr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtStddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="txtStddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="txtStddr.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtStddr.Name" xml:space="preserve">
+    <value>txtStddr</value>
+  </data>
+  <data name="&gt;&gt;txtStddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStddr.Parent" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;txtStddr.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>STDDR</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 4</value>
+  </data>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 162</value>
+  </data>
+  <data name="groupBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Sensor Setpoints</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Name" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnBatchUpdate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnBatchUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnBatchUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBatchUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 184</value>
+  </data>
+  <data name="btnBatchUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="btnBatchUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnBatchUpdate.Text" xml:space="preserve">
+    <value>Batch Update</value>
+  </data>
+  <data name="&gt;&gt;btnBatchUpdate.Name" xml:space="preserve">
+    <value>btnBatchUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnBatchUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBatchUpdate.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;btnBatchUpdate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtBatchUpdateEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtBatchUpdateEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 152</value>
+  </data>
+  <data name="txtBatchUpdateEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="txtBatchUpdateEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtBatchUpdateEnd.Text" xml:space="preserve">
+    <value>END</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateEnd.Name" xml:space="preserve">
+    <value>txtBatchUpdateEnd</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateEnd.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateEnd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBatchUpdateStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtBatchUpdateStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 152</value>
+  </data>
+  <data name="txtBatchUpdateStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="txtBatchUpdateStart.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtBatchUpdateStart.Text" xml:space="preserve">
+    <value>START</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateStart.Name" xml:space="preserve">
+    <value>txtBatchUpdateStart</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateStart.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;txtBatchUpdateStart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetThresholds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetThresholds.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnSetThresholds.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetThresholds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 116</value>
+  </data>
+  <data name="btnSetThresholds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="btnSetThresholds.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnSetThresholds.Text" xml:space="preserve">
+    <value>Set New Thresholds</value>
+  </data>
+  <data name="&gt;&gt;btnSetThresholds.Name" xml:space="preserve">
+    <value>btnSetThresholds</value>
+  </data>
+  <data name="&gt;&gt;btnSetThresholds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetThresholds.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;btnSetThresholds.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtSetMaxRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtSetMaxRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 84</value>
+  </data>
+  <data name="txtSetMaxRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="txtSetMaxRate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtSetMaxRate.Name" xml:space="preserve">
+    <value>txtSetMaxRate</value>
+  </data>
+  <data name="&gt;&gt;txtSetMaxRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSetMaxRate.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;txtSetMaxRate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>MAX RATE</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtSetRstddr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtSetRstddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 56</value>
+  </data>
+  <data name="txtSetRstddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="txtSetRstddr.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtSetRstddr.Name" xml:space="preserve">
+    <value>txtSetRstddr</value>
+  </data>
+  <data name="&gt;&gt;txtSetRstddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSetRstddr.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;txtSetRstddr.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>RSTDDR</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtSetStddr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtSetStddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 28</value>
+  </data>
+  <data name="txtSetStddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="txtSetStddr.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtSetStddr.Name" xml:space="preserve">
+    <value>txtSetStddr</value>
+  </data>
+  <data name="&gt;&gt;txtSetStddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSetStddr.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;txtSetStddr.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>STDDR</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 172</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 220</value>
+  </data>
+  <data name="groupBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Update Setpoints</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnOpenLogs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnOpenLogs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOpenLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 160</value>
+  </data>
+  <data name="btnOpenLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 35</value>
+  </data>
+  <data name="btnOpenLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnOpenLogs.Text" xml:space="preserve">
+    <value>Open Logs</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLogs.Name" xml:space="preserve">
+    <value>btnOpenLogs</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLogs.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLogs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClearLogs.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnClearLogs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnClearLogs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClearLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 160</value>
+  </data>
+  <data name="btnClearLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 35</value>
+  </data>
+  <data name="btnClearLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnClearLogs.Text" xml:space="preserve">
+    <value>Clear Logs</value>
+  </data>
+  <data name="&gt;&gt;btnClearLogs.Name" xml:space="preserve">
+    <value>btnClearLogs</value>
+  </data>
+  <data name="&gt;&gt;btnClearLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClearLogs.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;btnClearLogs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnExportLogs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnExportLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 160</value>
+  </data>
+  <data name="btnExportLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 35</value>
+  </data>
+  <data name="btnExportLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnExportLogs.Text" xml:space="preserve">
+    <value>Export Logs</value>
+  </data>
+  <data name="&gt;&gt;btnExportLogs.Name" xml:space="preserve">
+    <value>btnExportLogs</value>
+  </data>
+  <data name="&gt;&gt;btnExportLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExportLogs.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;btnExportLogs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtLog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 25</value>
+  </data>
+  <data name="txtLog.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLog.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 129</value>
+  </data>
+  <data name="txtLog.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Name" xml:space="preserve">
+    <value>txtLog</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;txtLog.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 401</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 201</value>
+  </data>
+  <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Application Logs</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Name" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnStopService.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnStopService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnStopService.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStopService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 4</value>
+  </data>
+  <data name="btnStopService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 30</value>
+  </data>
+  <data name="btnStopService.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnStopService.Text" xml:space="preserve">
+    <value>Stop Service</value>
+  </data>
+  <data name="&gt;&gt;btnStopService.Name" xml:space="preserve">
+    <value>btnStopService</value>
+  </data>
+  <data name="&gt;&gt;btnStopService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopService.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStopService.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnStartService.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnStartService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnStartService.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStartService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 4</value>
+  </data>
+  <data name="btnStartService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 30</value>
+  </data>
+  <data name="btnStartService.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnStartService.Text" xml:space="preserve">
+    <value>Start Service</value>
+  </data>
+  <data name="&gt;&gt;btnStartService.Name" xml:space="preserve">
+    <value>btnStartService</value>
+  </data>
+  <data name="&gt;&gt;btnStartService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartService.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStartService.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnReboot.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnReboot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnReboot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReboot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 4</value>
+  </data>
+  <data name="btnReboot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 30</value>
+  </data>
+  <data name="btnReboot.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnReboot.Text" xml:space="preserve">
+    <value>Reboot</value>
+  </data>
+  <data name="&gt;&gt;btnReboot.Name" xml:space="preserve">
+    <value>btnReboot</value>
+  </data>
+  <data name="&gt;&gt;btnReboot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReboot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReboot.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtFileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 26</value>
+  </data>
+  <data name="txtFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 22</value>
+  </data>
+  <data name="txtFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtFileName.Text" xml:space="preserve">
+    <value>filename</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.Name" xml:space="preserve">
+    <value>txtFileName</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnBrowse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnBrowse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 22</value>
+  </data>
+  <data name="btnBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="btnBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnBrowse.Text" xml:space="preserve">
+    <value>browse</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse.Name" xml:space="preserve">
+    <value>btnBrowse</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 65</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>to Sensor No:</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 16</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>From Sensor No:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnUpload.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpload.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnUpload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnUpload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 58</value>
+  </data>
+  <data name="btnUpload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="btnUpload.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>upload</value>
+  </data>
+  <data name="&gt;&gt;btnUpload.Name" xml:space="preserve">
+    <value>btnUpload</value>
+  </data>
+  <data name="&gt;&gt;btnUpload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUpload.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnUpload.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtFirmwareEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtFirmwareEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 62</value>
+  </data>
+  <data name="txtFirmwareEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="txtFirmwareEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtFirmwareEnd.Text" xml:space="preserve">
+    <value>END</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareEnd.Name" xml:space="preserve">
+    <value>txtFirmwareEnd</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareEnd.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareEnd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtFirmwareStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtFirmwareStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 62</value>
+  </data>
+  <data name="txtFirmwareStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="txtFirmwareStart.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtFirmwareStart.Text" xml:space="preserve">
+    <value>START</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareStart.Name" xml:space="preserve">
+    <value>txtFirmwareStart</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareStart.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtFirmwareStart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 431</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 99</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Upload Firmware</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBoxLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="pictureBoxLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 210</value>
+  </data>
+  <data name="pictureBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 175</value>
+  </data>
+  <data name="pictureBoxLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBoxLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.Name" xml:space="preserve">
+    <value>pictureBoxLogo</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtChangeIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtChangeIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 26</value>
+  </data>
+  <data name="txtChangeIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
+  </data>
+  <data name="txtChangeIP.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtChangeIP.Name" xml:space="preserve">
+    <value>txtChangeIP</value>
+  </data>
+  <data name="&gt;&gt;txtChangeIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtChangeIP.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;txtChangeIP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnChangeIP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnChangeIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnChangeIP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnChangeIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 22</value>
+  </data>
+  <data name="btnChangeIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 30</value>
+  </data>
+  <data name="btnChangeIP.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnChangeIP.Text" xml:space="preserve">
+    <value>Update and Restart</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIP.Name" xml:space="preserve">
+    <value>btnChangeIP</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIP.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 536</value>
+  </data>
+  <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 66</value>
+  </data>
+  <data name="groupBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Change IP Address</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Name" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>916, 607</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAEBAAAAAAIABoBAAARgAAACAgAAAAACAAqBAAAK4EAAAwMAAAAAAgAKglAABWFQAAQEAAAAAA
+        IAAoQgAA/joAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD8/Pxz/Pz8c/z8
+        /HP8/Pxz/Pz8c/z8/HP8/Pxz/Pz8c/z8/HP8/Pxz/Pz8c/z8/HP8/Pxz/Pz8c/z8/HP8/Pxz/Pz8//n5
+        +//19fn/9fX5//X1+f/19fn/9fX5//X1+f/19fn/9fX5//X1+f/19fn/9fX5//X1+f/5+fv//Pz8//z8
+        /P/e3vH/7ez2/+3s9v/t7Pb/7ez2/+3s9v/t7Pb/7ez2/+3s9v/t7Pb/7ez2/+3s9v/t7Pb/39/x//z8
+        /P/8/Pz/4+Lz/+Xl9P+Xldj/lJPX/46M1f+dm9r//Pz8/9HR7f+Xltj/+vr7/5uZ2f/Hx+n//Pz8/+Pi
+        8//8/Pz//Pz8/+Pi8/+ko93/Pju5/1VSwf9nZcf/fHrO//z8/P9/ftD/dXPM//z8/P9VUsH/o6Lc//z8
+        /P/j4vP//Pz8//z8/P/j4vP/z87s/z47uf+5uOT//Pz8//z8/P/x8fj/SUa8/8jI6v/8/Pz/V1TB/6Si
+        3f/8/Pz/4+Lz//z8/P/8/Pz/4+Lz//n5+/9aWMP/gH7Q//z8/P/8/Pz/vLvl/1BNv//5+fv//Pz8/1dU
+        wf+ko93//Pz8/+Pi8//8/Pz//Pz8/+Pi8//8/Pz/n57b/0NAu//p6fX/+/v7/3p4zv+IhtP//Pz8//z8
+        /P9YVcL/pqTd//z8/P/j4vP//Pz8//z8/P/j4vP//Pz8/+Pj8/9MSr7/oZ/b//Dw+P9EQbv/wsHn//z8
+        /P/8/Pz/WVbC/6ak3f/8/Pz/4+Lz//z8/P/8/Pz/4+Lz//z8/P/7+/v/lJLX/1FOv/+AftD/SEW8//Ly
+        +P/8/Pz//Pz8/1lWwv+npt7//Pz8/+Pi8//8/Pz//Pz8/+Pi8//8/Pz//Pz8/9vb8P8+O7n/Pju5/3h2
+        zf/8/Pz/6+v2/97d8f9NSr7/qKbe//z8/P/j4vP//Pz8//z8/P/j4vP//Pz8//z8/P/7+/v/amjI/z47
+        uf+zseL//Pz8/1lXwv8+O7n/Pju5/7Sz4v/8/Pz/4+Pz//z8/P/8/Pz/4+Lz//z8/P/8/Pz//Pz8/+no
+        9f++veb/9/f6//z8/P/NzOv/xcXo/87N6//39/r//Pz8/+Xl8//8/Pz//Pz8/9/f8f/t7Pb/7ez2/+3s
+        9v/t7Pb/7ez2/+3s9v/t7Pb/7ez2/+3s9v/t7Pb/7ez2/+3s9v/h4fL//Pz8//z8/P/5+fv/9fX5//X1
+        +f/19fn/9fX5//X1+f/19fn/9fX5//X1+f/19fn/9fX5//X1+f/19fn/+fn7//z8/P/8/Pxz/Pz8c/z8
+        /HP8/Pxz/Pz8c/z8/HP8/Pxz/Pz8c/z8/HP8/Pxz/Pz8c/z8/HP8/Pxz/Pz8c/z8/HP8/PxzAAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//ygA
+        AAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Afz8/OX8/Pzl/Pz85fz8
+        /OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8
+        /OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//v7+//y8vj/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v
+        9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/8vL4//v7
+        +//8/Pz//Pz8//z8/P/8/Pz/+fn7/7y75f/e3fH/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d
+        8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d
+        8f+/vub/+fn7//z8/P/8/Pz//Pz8//z8/P/5+fv/y8rq//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/83M6//5+fv//Pz8//z8/P/8/Pz//Pz8//n5+//NzOv//Pz8//v7+//w8Pf/6+v2/+vr
+        9v/r6vb/397x/93d8f/d3fH/5ub0//z8/P/8/Pz/+/v7/+np9f/d3fH/5+f0//r6+//8/Pz/5eTz/93d
+        8f/f3/L/+/v7//z8/P/8/Pz/zczr//n5+//8/Pz//Pz8//z8/P/8/Pz/+fn7/83M6//8/Pz/pKLd/0E+
+        uv8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf9zccv//Pz8//z8/P/49/r/aWbI/z47uf9bWcP/9vb6//z8
+        /P9racn/Pju5/0pHvf/6+vv//Pz8//z8/P/NzOv/+fn7//z8/P/8/Pz//Pz8//z8/P/5+fv/zczr//Pz
+        +P9WU8H/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/3Nxy//8/Pz//Pz8/97e8f9BPrr/Pju5/5CO
+        1v/8/Pz//Pz8/2tpyf8+O7n/S0i9//r6+//8/Pz//Pz8/83M6//5+fv//Pz8//z8/P/8/Pz//Pz8//n5
+        +//NzOv/8/P5/1VSwf8+O7n/Pju5/0tJvf+Ni9X/kI/W/5CP1v+Qj9b/r63g//z8/P/8/Pz/oaDc/z47
+        uf8+O7n/ycjp//z8/P/8/Pz/bWvJ/z47uf9OS77/+vr7//z8/P/8/Pz/zczr//n5+//8/Pz//Pz8//z8
+        /P/8/Pz/+fn7/83M6//8/Pz/f33P/z47uf8+O7n/f33Q//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//f3
+        +v9kYsb/Pju5/3Nxy//v7vf//Pz8//z8/P9wbcr/Pju5/05Lvv/6+vv//Pz8//z8/P/NzOv/+fn7//z8
+        /P/8/Pz//Pz8//z8/P/5+fv/zczr//z8/P/Gxen/Pju5/z47uf9ubMr/+vr7//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/19bv/0NAuv8+O7n/xcTo//v7+//8/Pz//Pz8/3Btyv8+O7n/Tku+//r6+//8/Pz//Pz8/83M
+        6//5+fv//Pz8//z8/P/8/Pz//Pz8//n5+//NzOv//Pz8//Hx+P9ZVsL/Pju5/0hFvP/e3fH//Pz8//z8
+        /P/8/Pz//Pz8//z8/P+cmtr/Pju5/0pIvf/z8/n//Pz8//z8/P/8/Pz/cG3K/z47uf9OS77/+vr7//z8
+        /P/8/Pz/zczr//n5+//8/Pz//Pz8//z8/P/8/Pz/+fn7/83M6//8/Pz//Pz8/5WU1/8+O7n/Pju5/5ua
+        2v/8/Pz//Pz8//z8/P/8/Pz/+fn7/15bxP8+O7n/e3nO//v7+//8/Pz//Pz8//z8/P9wbcr/Pju5/1BN
+        v//6+vv//Pz8//z8/P/NzOv/+fn7//z8/P/8/Pz//Pz8//z8/P/5+fv/zczr//z8/P/8/Pz/3dzx/z47
+        uf8+O7n/VFHA//T0+f/8/Pz//Pz8//z8/P/T0u3/Qj+6/z47uf+2teP//Pz8//z8/P/8/Pz//Pz8/3Fv
+        y/8+O7n/UU/A//r6+//8/Pz//Pz8/83M6//5+fv//Pz8//z8/P/8/Pz//Pz8//n5+//NzOv//Pz8//z8
+        /P/6+vv/aGbH/z47uf8/PLn/u7rl//z8/P/8/Pz/+/v7/5aV2P8+O7n/R0S8/+Xl9P/8/Pz//Pz8//z8
+        /P/8/Pz/dHLL/z47uf9RT8D/+vr7//z8/P/8/Pz/zczr//n5+//8/Pz//Pz8//z8/P/8/Pz/+fn7/83M
+        6//8/Pz//Pz8//z8/P+trOD/Pzy5/z47uf9vbcr/+vr7//z8/P/4+Pr/WVbC/z47uf9sasn/+/v7//z8
+        /P/8/Pz//Pz8//z8/P90csv/Pju5/1FPwP/6+vv//Pz8//z8/P/NzOv/+fn7//z8/P/8/Pz//Pz8//z8
+        /P/5+fv/zczr//z8/P/8/Pz//Pz8/+no9f93dc3/Pju5/z88uf/a2vD//Pz8/9LS7f8+O7n/Pju5/6Sj
+        3f/8/Pz//Pz8//z8/P/8/Pz//Pz8/3Ryy/8+O7n/UU/A//r6+//8/Pz//Pz8/83M6//5+fv//Pz8//z8
+        /P/8/Pz//Pz8//n5+//NzOv//Pz8//z8/P/8/Pz/+/v7/8XE6P8/PLn/Pju5/4aE0v/t7fb/enjO/z47
+        uf9EQbv/29rw//z8/P/8/Pz//Pz8//z8/P/8/Pz/dHLL/z47uf9UUcD/+vr7//z8/P/8/Pz/zczr//n5
+        +//8/Pz//Pz8//z8/P/8/Pz/+fn7/83M6//8/Pz//Pz8//z8/P/8/Pz/8fH4/1pYw/8+O7n/Qj+6/1lX
+        wv8/PLn/Pju5/2Bexf/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P91c8z/Pju5/1VTwf/6+vv//Pz8//z8
+        /P/NzOv/+fn7//z8/P/8/Pz//Pz8//z8/P/5+fv/zczr//z8/P/8/Pz//Pz8//z8/P/8/Pz/mJbY/z47
+        uf8+O7n/Pju5/z47uf8+O7n/lZTX//z8/P/8/Pz//Pz8//z8/P/8/Pz/+/v7/3Fvy/8+O7n/VVPB//r6
+        +//8/Pz//Pz8/83M6//5+fv//Pz8//z8/P/8/Pz//Pz8//n5+//NzOv//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/d3fH/QT66/z47uf8+O7n/Pju5/z47uf/Pzuz//Pz8//z8/P/i4vP/09Pt/87N6/+xsOH/R0S8/z47
+        uf9VU8H/+vr7//z8/P/8/Pz/zczr//n5+//8/Pz//Pz8//z8/P/8/Pz/+fn7/83M6//8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//j4+v9vbMr/Pju5/z47uf8+O7n/VlPB//Ly+P/8/Pz//Pz8/3RyzP9BPrr/QD25/z47
+        uf8+O7n/Pju5/1hVwv/6+vv//Pz8//z8/P/NzOv/+fn7//z8/P/8/Pz//Pz8//z8/P/5+fv/zczr//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/7285v9BPrr/Pju5/z47uf+HhdP/+/v7//z8/P/8/Pz/c3HL/z47
+        uf8+O7n/Pju5/z47uf8+O7n/g4HR//v7+//8/Pz//Pz8/83M6//5+fv//Pz8//z8/P/8/Pz//Pz8//n5
+        +//NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/+/v7/7Gv4f91c8z/jIrU/+rp9f/8/Pz//Pz8//z8
+        /P+ureD/j47V/4+O1f+PjtX/kI7V/7Gv4f/r6vb//Pz8//z8/P/8/Pz/0NDs//n5+//8/Pz//Pz8//z8
+        /P/8/Pz/+fn7/83M6//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//v7+//7+/v//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/R0Oz/+fn7//z8
+        /P/8/Pz//Pz8//z8/P/5+fv/zczr//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/9HQ
+        7P/5+fv//Pz8//z8/P/8/Pz//Pz8//n5+/+/vub/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d
+        8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d8f/e3fH/3t3x/97d
+        8f/e3fH/wsLn//n5+//8/Pz//Pz8//z8/P/8/Pz/+/v7//Ly+P/v7/f/7+/3/+/v9//v7/f/7+/3/+/v
+        9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v9//v7/f/7+/3/+/v
+        9//v7/f/7+/3/+/v9//y8vj/+/v7//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8
+        /OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8
+        /OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85fz8/OX8/Pzl/Pz85f///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAA////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B/Pz8Wfz8
+        /Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8
+        /Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8
+        /Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8
+        /Fn8/PxZ/Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//j4
+        +v/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np
+        9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np
+        9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1//j4+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v+qqd//z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O
+        7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O
+        7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/rq3g/+Dg8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/9/f8f/Ix+n//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg
+        8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Df8v/My+v//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8
+        /P/8/Pz/+vr7//n5+//5+fv/+fn7//n5+//5+fv/9/f6//b2+v/29vr/9vb6//b2+v/4+Pr//Pz8//z8
+        /P/8/Pz//Pz8//v7+//39/r/9vb6//b2+v/5+fv/+/v7//z8/P/8/Pz/+Pj6//b2+v/29vr/9vb6//n5
+        +//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg
+        8v/NzOv//Pz8//z8/P/j4/P/mJbY/4eF0/+HhdP/h4XT/4eF0/+GhNL/d3XN/3VzzP91c8z/dXPM/3Vz
+        zP+urOD//Pz8//z8/P/8/Pz//Pz8//Pz+P9/fdD/dXPM/3Z0zP+Uktf/7+73//z8/P/8/Pz/paTd/3Vz
+        zP91c8z/dXPM/8LB5//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v/NzOv//Pz8/+bm9P9jYcb/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf+OjNX//Pz8//z8/P/8/Pz//Pz8/8fG6f8+O7n/Pju5/z47uf9zcMv/+vn7//z8
+        /P/8/Pz/goHR/z47uf8+O7n/Pzy5/6up3//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8/7m35P8/PLn/Pju5/z47uf8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf+OjNX//Pz8//z8/P/8/Pz/+Pj6/4mH0/8+O7n/Pju5/z47
+        uf+qqd///Pz8//z8/P/8/Pz/goHR/z47uf8+O7n/Pzy5/6yr4P/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg
+        8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8/6el3v8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf+OjNX//Pz8//z8/P/8/Pz/5+f0/1pY
+        w/8+O7n/Pju5/0xJvv/X1u///Pz8//z8/P/8/Pz/goHR/z47uf8+O7n/Pzy5/7Cv4f/8/Pz//Pz8//z8
+        /P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8/7m4
+        5P8+O7n/Pju5/z47uf8+O7n/QT66/5CO1f+6ueT/urnk/7q55P+6ueT/urnk/7q55P/W1e7//Pz8//z8
+        /P/8/Pz/wsHn/z88uf8+O7n/Pju5/2toyP/w7/f//Pz8//z8/P/8/Pz/hoTS/z47uf8+O7n/Pzy5/7Gv
+        4f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg
+        8v/NzOv//Pz8/9rZ8P9QTb//Pju5/z47uf8+O7n/WFXC/+Li8//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/6+vv/hILR/z47uf8+O7n/VlTB/6Gg3P/8/Pz//Pz8//z8/P/8/Pz/iYfT/z47
+        uf8+O7n/Pzy5/7Gv4f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//j4+v96eM7/Pju5/z47uf8+O7n/WVbC/+Pj8//8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/i4fL/WFXC/z47uf8+O7n/hYPS/+rq9f/8/Pz//Pz8//z8
+        /P/8/Pz/iYfT/z47uf8+O7n/Pzy5/7Gv4f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P+8u+X/Pzy5/z47uf8+O7n/RkS8/8/P
+        7P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P+6ueT/QD25/z47uf8+O7n/ubjk//v7
+        +//8/Pz//Pz8//z8/P/8/Pz/iYfT/z47uf8+O7n/Pzy5/7Gv4f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg
+        8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/n5/T/WljD/z47
+        uf8+O7n/Pju5/5OR1//7+/v//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//r6+/99e8//Pju5/z47
+        uf9GRLz/6+r1//z8/P/8/Pz//Pz8//z8/P/8/Pz/iYfT/z47uf8+O7n/Pzy5/7Gv4f/8/Pz//Pz8//z8
+        /P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8
+        /P/5+fv/j43V/z47uf8+O7n/Pju5/1tYw//n5vT//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Pj
+        8/9UUcD/Pju5/z47uf9ycMv/+Pj6//z8/P/8/Pz//Pz8//z8/P/8/Pz/iYfT/z47uf8+O7n/Pzy5/7Gv
+        4f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg
+        8v/NzOv//Pz8//z8/P/8/Pz/0dHt/z47uf8+O7n/Pju5/0E+uv+zsuL//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/7a14/9BPrr/Pju5/z88uf+mpN3/+/v7//z8/P/8/Pz//Pz8//z8/P/8/Pz/iYfT/z47
+        uf8+O7n/Pzy5/7W04//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz/9PT5/2Vjx/8+O7n/Pju5/z47uf9pZsj/+vr7//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/3d0zf8+O7n/Pju5/0ZDvP/c2/D//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/iYfT/z47uf8+O7n/Pzy5/7a14//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz/+/v7/6Wk3f8/PLn/Pju5/z47
+        uf9HRLz/zc3r//z8/P/8/Pz//Pz8//z8/P/8/Pz/5ub0/0pHvf8+O7n/Pju5/2Ffxf/6+vv//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/j43V/z47uf8+O7n/Pzy5/7a14//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg
+        8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8/+Tj
+        8/9GQ7z/Pju5/z47uf8+O7n/iIfT//z8/P/8/Pz//Pz8//z8/P/7+/v/sK/h/0A9uf8+O7n/Pju5/5eW
+        2P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/j43V/z47uf8+O7n/Pzy5/7a14//8/Pz//Pz8//z8
+        /P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8
+        /P/8/Pz//Pz8//z8/P91c8z/Pju5/z47uf8+O7n/SUa9/+3t9//8/Pz//Pz8//z8/P/5+fr/dXPM/z47
+        uf8+O7n/SEW8/8nI6v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/j43V/z47uf8+O7n/Pzy5/7a1
+        4//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg
+        8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P+2teP/VlPB/z47uf8+O7n/Pju5/6qp3//7+/v//Pz8//z8
+        /P/o6PX/REG7/z47uf8+O7n/W1jD/+/v9//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/j43V/z47
+        uf8+O7n/Pzy5/7a14//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/s7Pb/qajf/z88uf8+O7n/Pju5/2Ri
+        xv/x8fj//Pz8//z8/P+trOD/Pju5/z47uf8+O7n/h4XS//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/j43V/z47uf8+O7n/Pzy5/7a14//8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/7+/v/4ODy/1ZU
+        wf8+O7n/Pju5/z47uf+/vub//Pz8/9HR7f9zccv/Pju5/z47uf9BPrr/wsHn//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/j43V/z47uf8+O7n/QD25/7m45P/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg
+        8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/+vr7/4SD0f8+O7n/Pju5/z47uf9pZsj/w8Ln/3Rxy/9HRLz/Pju5/z47uf9ZVsL/4uLz//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/j43V/z47uf8+O7n/QD25/7y75f/8/Pz//Pz8//z8
+        /P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/8bF6f9CP7r/Pju5/z47uf8+O7n/RUK7/z47uf8+O7n/Pju5/z47
+        uf97ec7/+Pj6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/kpDW/z47uf8+O7n/QD25/7y7
+        5f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg
+        8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+vr9v9kYsb/Pju5/z47uf8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf+zsuL//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/kZDW/z47
+        uf8+O7n/QD25/7y75f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//v7+/+cmtr/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/0pIvf/f3vL//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/7+vv/b2zK/z47uf8+O7n/QD25/7y75f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/f3/L/RUK7/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/3Jwy//y8vj//Pz8//z8/P/8/Pz/3Nzx/8jH
+        6f+7uuX/t7bj/6+u4f9/fdD/QT66/z47uf8+O7n/QD25/7y75f/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg
+        8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/19fn/d3XN/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/6ak3f/7+/v//Pz8//z8
+        /P/8/Pz/jYvU/0VCu/9CP7r/QT+6/z89uf8+O7n/Pju5/z47uf8+O7n/QD25/7y75f/8/Pz//Pz8//z8
+        /P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/7+/v/ubjk/z47uf8+O7n/Pju5/z47uf8+O7n/QD25/9ra
+        8P/8/Pz//Pz8//z8/P/8/Pz/jYvU/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/QT66/8/O
+        7P/8/Pz//Pz8//z8/P/8/Pz/zczr/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg
+        8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/8/P5/2Zkx/8+O7n/Pju5/z47
+        uf8+O7n/ZGHG//Pz+f/8/Pz//Pz8//z8/P/8/Pz/jozV/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf8/PLn/X13F//X1+f/8/Pz//Pz8//z8/P/8/Pz/zs3r/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/9/e
+        8f9vbMr/RUK7/0RBu/9gXcX/1NPu//v7+//8/Pz//Pz8//z8/P/8/Pz/np3a/1lXwv9ZV8L/WVfC/1lX
+        wv9ZV8L/WVfC/2Ngxv+cm9r/1dXu//z8/P/8/Pz//Pz8//z8/P/8/Pz/0tLt/+Dg8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/6Of0/+/v9//5+fv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/09Pt/+Dg
+        8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/09Pt/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg8v/NzOv//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/09Pt/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Dg
+        8v/NzOv//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/09Pt/+Dg8v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Dg8v+ureD/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O
+        7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O
+        7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/z87s/8/O7P/Pzuz/srHi/+Hh8v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//j4+v/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np
+        9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np
+        9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1/+np9f/p6fX/6en1//j4
+        +v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8Wfz8
+        /Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8
+        /Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8
+        /Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8/Fn8/PxZ/Pz8Wfz8
+        /Fn8/PxZ////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//KAAAAEAAAACAAAAAAQAgAAAA
+        AAAAQgAAAAAAAAAAAAAAAAAAAAAAAP///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//v7+//v7vf/4+Lz/+Pi8//j4vP/4+Lz/+Pi
+        8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi
+        8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi
+        8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi
+        8//v7vf/+/v7//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/39/r/tLPi/6qp
+        3//Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/
+        5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/
+        5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/
+        5v/Av+b/wL/m/8C/5v+sq9//trXj//f3+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/9vb6/7m55P/Y1+///Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v+6ueT/2Njv//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/769
+        5f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz//Pz8//r6+//s7Pb/3Nzx/9va8P/b2vD/29rw/9va
+        8P/b2vD/2djv/8XE6P+/vub/v77m/7++5v+/vub/v77m/7++5v/h4fL//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/7+/v/6ur1/8XE6P+/vub/v77m/8TE6P/g3/L/9fX5//z8/P/8/Pz//Pz8/93c8f+/vub/v77m/7++
+        5v+/vub/x8bp//r6+//8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//X1+f+dm9r/TUq+/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/qafe//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/+fn7/6in3v9CP7r/Pju5/z47uf8+O7n/aGXH/+jo9f/8/Pz//Pz8//z8
+        /P+ZmNn/Pju5/z47uf8+O7n/Pju5/1ZTwf/4+Pr//Pz8//z8/P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2
+        +v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8
+        /P+5ueT/REG7/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf8+O7n/Pju5/6mn3v/8/Pz//Pz8//z8/P/8/Pz//Pz8/+7u9/97ec7/Pju5/z47uf8+O7n/Pju5/4qI
+        0//6+vv//Pz8//z8/P/8/Pz/mZjZ/z47uf8+O7n/Pju5/z47uf9WU8H/+Pj6//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2
+        +v++veX/3Nvw//z8/P/y8vj/dnTM/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf+pp97//Pz8//z8/P/8/Pz//Pz8//z8/P/c3PD/S0m+/z47
+        uf8+O7n/Pju5/z88uf/AwOf//Pz8//z8/P/8/Pz//Pz8/5mY2f8+O7n/Pju5/z47uf8+O7n/VlPB//j4
+        +v/8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz/4uLy/2Vixv8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/qafe//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/paTd/z47uf8+O7n/Pju5/z47uf9MSb7/9fX5//z8/P/8/Pz//Pz8//z8/P+ZmNn/Pju5/z47
+        uf8+O7n/Pju5/1xaw//4+Pr//Pz8//z8/P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8/+Pj8/9mY8f/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/6mn
+        3v/8/Pz//Pz8//z8/P/8/Pz/+fn7/2tpyf8+O7n/Pju5/z47uf8+O7n/enfO//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/mZjZ/z47uf8+O7n/Pju5/z47uf9eW8T/+Pj6//z8/P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/769
+        5f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8
+        /P/z8/n/c3HM/z47uf8+O7n/Pju5/z47uf8+O7n/Pzy5/3RyzP/W1e7/4+Pz/+Pj8//j4/P/4+Pz/+Pj
+        8//j4/P/4+Pz/+Pj8//x8fj//Pz8//z8/P/8/Pz//Pz8/9XV7v9MSb7/Pju5/z47uf8+O7n/QT66/7Kx
+        4f/8/Pz//Pz8//z8/P/8/Pz//Pz8/5+e2/8+O7n/Pju5/z47uf8+O7n/XlvE//j4+v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/29vr/vr3l/9zb8P/8/Pz//Pz8/56d2/8/Pbn/Pju5/z47uf8+O7n/Pju5/0RBu/+zsuL//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//r6+/+dnNr/Qj+6/z47
+        uf8+O7n/SEW8/25tyv/Y1+///Pz8//z8/P/8/Pz//Pz8//z8/P+ioNv/Pju5/z47uf8+O7n/Pju5/15b
+        xP/4+Pr//Pz8//z8/P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/a2vD/Qj+6/z47uf8+O7n/Pju5/z47
+        uf9FQ7v/v7/n//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/r6vb/dHLM/z47uf8+O7n/Pju5/1lXwv+8vOX/6+v2//z8/P/8/Pz//Pz8//z8/P/8/Pz/oqDb/z47
+        uf8+O7n/Pju5/z47uf9eW8T/+Pj6//z8/P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz/+vr7/29t
+        yv8+O7n/Pju5/z47uf8+O7n/Q0C6/62s4P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/7+/v/yMjp/1FPv/8+O7n/Pju5/z47uf93dc3/9/f6//r6+//8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/6Kg2/8+O7n/Pju5/z47uf8+O7n/XlvE//j4+v/8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb
+        8P++veX/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb
+        8P/8/Pz//Pz8//z8/P+yseL/QD25/z47uf8+O7n/Pju5/z88uf+Ih9P/9/f6//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/+Pj6/6Cf2/8/PLn/Pju5/z47uf8+O7n/q6rf//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P+ioNv/Pju5/z47uf8+O7n/Pju5/15bxP/4+Pr//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/8/Pz/29rw/1lWwv8+O7n/Pju5/z47uf8+O7n/YmDG/9va
+        8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//Dv9/9tasn/Pju5/z47
+        uf8+O7n/QT65/+Df8f/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/oqDb/z47uf8+O7n/Pju5/z47
+        uf9eW8T/+Pj6//z8/P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz//Pz8//Pz+f+PjdX/Pzy5/z47
+        uf8+O7n/Pju5/0I/uv+op9//+fn7//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/T0u3/QD26/z47uf8+O7n/Pju5/21ryf/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/6Kg
+        2/8+O7n/Pju5/z47uf8+O7n/XlvE//j4+v/8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8
+        /P/8/Pz/vLvl/0xKvv8+O7n/Pju5/z47uf8+O7n/bmzK/+7t9//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/mZfZ/z47uf8+O7n/Pju5/z47uf+fndv/+fn7//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P+ioNv/Pju5/z47uf8+O7n/Pju5/19cxP/4+Pr//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/769
+        5f/c2/D//Pz8//z8/P/8/Pz//Pz8/+jo9f9kYcb/Pju5/z47uf8+O7n/Pju5/0NAuv/Nzev//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/8/P4/2Nhxv8+O7n/Pju5/z47uf9KR73/xsXp//v7
+        +//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/oqDb/z47uf8+O7n/Pju5/z47uf9kYsb/+Pj6//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz//Pz8//z8/P/8/Pz/n57b/z47uf8+O7n/Pju5/z47
+        uf8+O7n/gH7Q//r6+//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/8PC5/9MSb7/Pju5/z47
+        uf8+O7n/bmvJ/+Tj8//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/6Kh3P8+O7n/Pju5/z47
+        uf8+O7n/ZWPH//j4+v/8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8/P/8/Pz//Pz8/93d
+        8f9BPrr/Pju5/z47uf8+O7n/Pju5/1RRwP/e3vH//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//j3
+        +v+Vk9f/QT66/z47uf8+O7n/QD25/4+O1f/39/r//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P+npt3/Pju5/z47uf8+O7n/Pju5/2Vjx//4+Pr//Pz8//z8/P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2
+        +v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/4+Pr/b2zK/z47uf8+O7n/Pju5/z47uf9DQLv/oqDc//r6+//8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/i4vP/bGrJ/z47uf8+O7n/Pju5/0pHvf+5uOT//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/qqne/z47uf8+O7n/Pju5/z47uf9lY8f/+Pj6//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2
+        +v++veX/3Nvw//z8/P/8/Pz//Pz8//z8/P/8/Pz/+/v7/7Kx4v9CP7r/Pju5/z47uf8+O7n/Pju5/2xq
+        yf/j4vP//Pz8//z8/P/8/Pz//Pz8//z8/P/7+/v/wsHn/0hGvP8+O7n/Pju5/z47uf9YVcL/5uX0//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/6qp3v8+O7n/Pju5/z47uf8+O7n/ZWPH//j4
+        +v/8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/Z2O//XVrE/z47
+        uf8+O7n/Pju5/z47uf9IRrz/vb3m//v7+//8/Pz//Pz8//z8/P/8/Pz/+Pj6/5OS1v8+O7n/Pju5/z47
+        uf8+O7n/fXvP//r6+//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P+qqd7/Pju5/z47
+        uf8+O7n/Pju5/2Vjx//4+Pr//Pz8//z8/P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/8/P5/4qJ1P9FQrv/Pju5/z47uf8+O7n/Pju5/3t5zv/09Pn//Pz8//z8/P/8/Pz//Pz8//Hw
+        +P9WU8H/Pju5/z47uf8+O7n/Pju5/7m45P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/qqne/z47uf8+O7n/Pju5/z47uf9lY8f/+Pj6//z8/P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/769
+        5f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P+/vub/h4XS/z47uf8+O7n/Pju5/z47uf9EQbv/29rw//z8
+        /P/8/Pz//Pz8//z8/P/Ixun/Pju5/z47uf8+O7n/Pju5/0pHvf/k5PP//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8/6qp3v8+O7n/Pju5/z47uf8+O7n/ZWPH//j4+v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/7e33/9XU7v9CP7r/Pju5/z47
+        uf8+O7n/Pju5/5eW2P/8/Pz//Pz8//z8/P/8/Pz/i4rU/z47uf8+O7n/Pju5/z47uf9ycMv/8PD4//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P+qqd7/Pju5/z47uf8+O7n/Pju5/2Vj
+        x//4+Pr//Pz8//z8/P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//v7
+        +//z8/n/d3XN/z47uf8+O7n/Pju5/z47uf9ZV8L/3dzx//z8/P/v7/f/y8vq/11bxP8+O7n/Pju5/z47
+        uf9APbn/qqnf//n5+//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/qqne/z47
+        uf8+O7n/Pju5/z47uf9nZcf/+Pj6//z8/P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/+vr7/7Gw4f9DQLr/Pju5/z47uf8+O7n/REG7/56d2//29vr/1NPt/3Ry
+        zP9JR73/Pju5/z47uf8+O7n/VFHA/8zL6//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/6qp3v8+O7n/Pju5/z47uf8+O7n/bWvK//n5+//8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb
+        8P++veX/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb
+        8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/X1+//X1zE/z47uf8+O7n/Pju5/z47
+        uf9QTr//hoTS/2Vixv9CP7r/Pju5/z47uf8+O7n/Pju5/25syv/m5vT//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P+qqd7/Pju5/z47uf8+O7n/Pju5/21ryv/5+fv//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9/f6/42L
+        1f9APbn/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/0E+uv+VlNj/+/v7//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/sK7h/z47uf8+O7n/Pju5/z47
+        uf9ta8r/+fn7//z8/P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/Cwef/Ske9/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf9IRrz/xsXo//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/7Cv
+        4f8+O7n/Pju5/z47uf8+O7n/bWvK//n5+//8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/8/L4/2Fexf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/VlPB//Hx+P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//v7+/+ZmNn/Pju5/z47uf8+O7n/Pju5/21ryv/5+fv//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/c2/D/vr3l//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/769
+        5f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P+ko93/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/4iG0//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//n5+//d3PD/X1zE/z47uf8+O7n/Pju5/z47uf9ta8r/+fn7//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/2trw/0tIvf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf+8u+X//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/b2vD/t7bk/7a14/+hn9v/oZ/b/5+e2/+Jh9P/Z2XH/0E+uv8+O7n/Pju5/z47
+        uf8+O7n/bWvK//n5+//8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//Dw+P9/fND/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf9YVcL/4uLz//z8/P/8/Pz//Pz8//z8/P/8/Pz/pqTd/0hFvP9IRbz/Q0C6/0NAuv9CQLr/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/21ryv/5+fv//Pz8//z8/P/8/Pz//Pz8//z8/P/c2/D/vr3l//b2
+        +v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/6+vv/trXj/0dFvP8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/hILR//Hw+P/8/Pz//Pz8//z8/P/8/Pz//Pz8/6Si3P8+O7n/Pju5/z47
+        uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf92dMz/+fn7//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/3Nvw/7695f/29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2
+        +v++veX/3Nvw//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/93d
+        8f9kYcb/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Qj+6/6qp3//6+vv//Pz8//z8/P/8/Pz//Pz8//z8
+        /P+pp97/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/nJra//r6
+        +//8/Pz//Pz8//z8/P/8/Pz//Pz8/9zb8P++veX/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/6+vv/ubfk/0pHvf8+O7n/Pju5/z47uf8+O7n/Pju5/15cxP/R0e3//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/qafe/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47uf8+O7n/Pju5/z47
+        uf9BPrr/XFrE/9XV7v/7+/v//Pz8//z8/P/8/Pz//Pz8//z8/P/c3PD/vr7m//b2+v/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//r6+/+iodz/VlTB/0A9uf8+O7n/Pju5/1xZ
+        w/+6ueX/9/f6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/7Cv4f9PTL7/T0y+/09Mvv9PTL7/T0y+/09M
+        vv9PTL7/T0y+/1BOv/9fXcX/lJLX/7695v/39/r//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/397x/8HB
+        5//29vr//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/9fX5/9XU
+        7v+ureD/qKfe/7695v/W1u7/+fn7//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/o6PX/0M/s/9DP
+        7P/Qz+z/0M/s/9DP7P/Qz+z/0M/s/9DP7P/R0Oz/2trw//b1+f/5+fv//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8/+Df8v/Cwuf/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/29vr/vr3l/9zb8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/+/v7//v7+//7+/v/+/v7//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/g3/L/wsLn//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/4N/y/8LC5//29vr//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//b2+v++veX/3Nvw//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+Df
+        8v/Cwuf/9vb6//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/29vr/vr3l/9zb
+        8P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/g3/L/wsLn//b2+v/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz/9vb6/7695f/c2/D//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/4N/y/8LC5//29vr//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//f3+v+2teP/rKvf/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/
+        5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/
+        5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/
+        5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/8C/5v/Av+b/wL/m/6+u4f+5uOT/9/f6//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/7+/v/7+73/+Pi8//j4vP/4+Lz/+Pi
+        8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi
+        8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi
+        8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi8//j4vP/4+Lz/+Pi
+        8//j4vP/7+73//v7+//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8
+        /Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL/Pz8y/z8/Mv8/PzL////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sensor Diagnostics v2.0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SensorDiagnostics</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,43 @@
+Daily Logs: 29-05-2019
+29-05-2019 10:24:33 INFO: Starting Diagnostics App
+29-05-2019 10:24:45 INFO: Pinging sensors 70 to 80
+29-05-2019 10:24:50 INFO: Ping Status: 10%
+29-05-2019 10:24:52 INFO: Ping Status: 20%
+29-05-2019 10:24:54 INFO: Ping Status: 30%
+29-05-2019 10:24:56 INFO: Ping Status: 40%
+29-05-2019 10:24:59 INFO: Ping Status: 50%
+29-05-2019 10:25:01 INFO: Ping Status: 60%
+29-05-2019 10:25:03 INFO: Ping Status: 70%
+29-05-2019 10:25:05 INFO: Ping Status: 80%
+29-05-2019 10:25:07 INFO: Ping Status: 90%
+29-05-2019 10:25:10 INFO: Preparing list of available sensors
+29-05-2019 10:25:26 INFO: Retrieving Sensor 75 Status
+29-05-2019 10:25:29 INFO: Sensor 75 is connected. Status: P
+29-05-2019 10:25:30 INFO: Retrieving Sensor 75 Power Information
+29-05-2019 10:25:32 INFO: Sensor 75 voltage drop: 10.66V
+29-05-2019 10:25:42 INFO: Retrieving Sensor 75 Raw Data
+29-05-2019 10:27:35 INFO: Exporting application logs
+
+29-05-2019 10:28:06 INFO: Retrieving Sensor 75 Thresholds
+29-05-2019 10:28:08 INFO: Sensor 75 thresholds: 5.00 10.00 30
+29-05-2019 10:28:17 INFO: Updating Sensor 75 Setpoints
+29-05-2019 10:28:19 INFO: Updating Sensor 75 Setpoints
+29-05-2019 10:28:26 INFO: Sensor stddr setpoint updated
+29-05-2019 10:28:26 INFO: Sensor rstddr setpoint updated
+29-05-2019 10:28:26 INFO: Sensor max rate setpoint updated
+29-05-2019 10:28:26 INFO: Sensor stddr setpoint updated
+29-05-2019 10:28:26 INFO: Sensor rstddr setpoint updated
+29-05-2019 10:28:26 INFO: Retrieving Sensor 75 Thresholds
+29-05-2019 10:28:26 INFO: Retrieving Sensor 75 Thresholds
+29-05-2019 10:28:29 INFO: Sensor 75 thresholds: 6.00 1131 �
+29-05-2019 10:28:29 ERROR: Sensor 75 data error
+29-05-2019 10:28:32 INFO: Retrieving Sensor 75 Thresholds
+29-05-2019 10:28:34 INFO: Sensor 75 thresholds: 6.00 11.00 31
+29-05-2019 10:28:42 INFO: Updating Sensor 75 Setpoints
+29-05-2019 10:28:49 INFO: Sensor stddr setpoint updated
+29-05-2019 10:28:49 INFO: Sensor rstddr setpoint updated
+29-05-2019 10:28:49 INFO: Sensor max rate setpoint updated
+29-05-2019 10:28:50 INFO: Retrieving Sensor 75 Thresholds
+29-05-2019 10:28:52 INFO: Sensor 75 thresholds: 5.00 10.00 30
+29-05-2019 10:29:05 INFO: Exporting application logs
+

@@ -1,0 +1,47 @@
+Daily Logs: 28-02-2019
+28-02-2019 16:46:36 INFO: Starting Diagnostics App
+28-02-2019 16:46:46 INFO: Pinging sensors 1 to 3
+28-02-2019 16:46:49 INFO: Ping Status: 33%
+28-02-2019 16:46:52 INFO: Ping Status: 66%
+28-02-2019 16:46:56 INFO: Ping Status: 100%
+28-02-2019 16:46:56 INFO: Preparing list of available sensors
+28-02-2019 16:55:38 INFO: Pinging sensors 1 to 3
+28-02-2019 16:55:41 INFO: Ping Status: 33%
+28-02-2019 16:55:44 INFO: Ping Status: 66%
+28-02-2019 16:55:47 INFO: Ping Status: 100%
+28-02-2019 16:55:47 INFO: Preparing list of available sensors
+28-02-2019 16:58:22 INFO: Pinging sensors 1 to 3
+28-02-2019 16:58:26 INFO: Ping Status: 33%
+28-02-2019 16:58:29 INFO: Ping Status: 66%
+28-02-2019 16:58:32 INFO: Ping Status: 100%
+28-02-2019 16:58:32 INFO: Preparing list of available sensors
+28-02-2019 16:58:37 INFO: Pinging sensors 1 to 10
+28-02-2019 16:58:40 INFO: Ping Status: 10%
+28-02-2019 16:58:43 INFO: Ping Status: 20%
+28-02-2019 16:58:46 INFO: Ping Status: 30%
+28-02-2019 16:58:49 INFO: Ping Status: 40%
+28-02-2019 16:58:52 INFO: Ping Status: 50%
+28-02-2019 16:58:55 INFO: Ping Status: 60%
+28-02-2019 16:58:58 INFO: Ping Status: 70%
+28-02-2019 16:59:02 INFO: Ping Status: 80%
+28-02-2019 16:59:05 INFO: Ping Status: 90%
+28-02-2019 16:59:08 INFO: Ping Status: 100%
+28-02-2019 16:59:08 INFO: Preparing list of available sensors
+28-02-2019 16:59:23 INFO: Exporting application logs
+
+28-02-2019 17:27:44 INFO: Starting Diagnostics App
+28-02-2019 17:27:51 INFO: Pinging sensors 1 to 3
+28-02-2019 17:27:54 INFO: Ping Status: 33%
+28-02-2019 17:27:57 INFO: Ping Status: 66%
+28-02-2019 17:28:00 INFO: Ping Status: 100%
+28-02-2019 17:28:00 INFO: Preparing list of available sensors
+28-02-2019 17:28:11 INFO: Retrieving Sensor 2 Status
+28-02-2019 17:28:14 INFO: Sensor 2 is connected. Status: P
+28-02-2019 17:28:15 INFO: Retrieving Sensor 2 Power Information
+28-02-2019 17:28:18 INFO: Sensor 2 voltage drop: 542.80V
+28-02-2019 17:28:20 INFO: Retrieving Sensor 2 Power Information
+28-02-2019 17:28:23 INFO: Sensor 2 voltage drop: 543.91V
+28-02-2019 17:28:51 INFO: Retrieving Sensor 2 Thresholds
+28-02-2019 17:28:54 INFO: Sensor 2 thresholds: 5.00 10.00 30
+28-02-2019 17:29:05 INFO: Exporting application logs
+

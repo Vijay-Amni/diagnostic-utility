@@ -1,0 +1,22 @@
+Daily Logs: 27-02-2019
+27-02-2019 18:25:44 INFO: Starting Diagnostics App
+27-02-2019 18:25:46 INFO: Exporting application logs
+
+27-02-2019 18:25:58 INFO: Exporting application logs
+
+27-02-2019 18:49:31 INFO: Exporting application logs
+
+27-02-2019 18:54:50 INFO: Starting Diagnostics App
+27-02-2019 18:54:53 INFO: Exporting application logs
+
+27-02-2019 18:54:53 INFO: Log File Found. Updating logs
+27-02-2019 18:55:03 INFO: Exporting application logs
+
+27-02-2019 18:54:53 INFO: Log File Found. Updating logs
+27-02-2019 18:55:03 INFO: Exporting application logs
+27-02-2019 18:55:03 INFO: Log File Found. Updating logs
+27-02-2019 18:55:05 INFO: Exporting application logs
+
+27-02-2019 18:58:07 INFO: Starting Diagnostics App
+27-02-2019 18:58:20 INFO: Exporting application logs
+

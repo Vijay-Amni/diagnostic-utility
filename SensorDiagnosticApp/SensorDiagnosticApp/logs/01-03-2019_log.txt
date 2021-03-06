@@ -1,0 +1,29 @@
+Daily Logs: 01-03-2019
+01-03-2019 12:34:05 INFO: Starting Diagnostics App
+01-03-2019 12:34:18 INFO: Retrieving Sensor 2 Status
+01-03-2019 12:34:39 ERROR: Network Error! Can't connect to the device
+01-03-2019 12:34:54 INFO: Exporting application logs
+
+01-03-2019 12:34:05 INFO: Starting Diagnostics App
+01-03-2019 12:34:18 INFO: Retrieving Sensor 2 Status
+01-03-2019 12:34:39 ERROR: Network Error! Can't connect to the device
+01-03-2019 12:34:54 INFO: Exporting application logs
+01-03-2019 12:34:54 INFO: Creating new log file
+01-03-2019 12:35:49 INFO: Pinging sensors 1 to 5
+01-03-2019 12:36:10 ERROR: Network Error! Can't connect to the device
+01-03-2019 12:38:50 INFO: Retrieving Sensor 2 Status
+01-03-2019 12:39:05 INFO: Exporting application logs
+
+01-03-2019 12:34:05 INFO: Starting Diagnostics App
+01-03-2019 12:34:18 INFO: Retrieving Sensor 2 Status
+01-03-2019 12:34:39 ERROR: Network Error! Can't connect to the device
+01-03-2019 12:34:54 INFO: Exporting application logs
+01-03-2019 12:34:54 INFO: Creating new log file
+01-03-2019 12:35:49 INFO: Pinging sensors 1 to 5
+01-03-2019 12:36:10 ERROR: Network Error! Can't connect to the device
+01-03-2019 12:38:50 INFO: Retrieving Sensor 2 Status
+01-03-2019 12:39:05 INFO: Exporting application logs
+01-03-2019 12:39:05 INFO: Log File Found. Updating logs
+01-03-2019 12:39:11 ERROR: Network Error! Can't connect to the device
+01-03-2019 12:39:26 INFO: Exporting application logs
+
