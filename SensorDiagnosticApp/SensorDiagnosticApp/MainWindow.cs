@@ -1423,13 +1423,5 @@ namespace SensorDiagnosticApp
             return;
         }
 
-        private void buttlonlist()
-        {
-
-           // List<GroupBox> Gboxlist = this.Controls.OfType<GroupBox>().Where(a=>a.Name.StartsWith("Group")).ToList();
-          //  List<Button> lColors = this.Controls.OfType<Button>().Concat(this.gr.Controls.OfType<Button>()).Concat(this.groupBox3.Controls.OfType<Button>()).ToList();
-          List<string> list = this.
-           // List<Button> listbtn = this.Controls.OfType<Button>().Where(a => a.Name.StartsWith("btn")).ToList();          
-        }
     }
 }
